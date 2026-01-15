@@ -35,35 +35,66 @@ For the **Canadian General Social Survey on Giving, Volunteering, and Participat
 12. Limitations, known biases, etc
 13. Link to documentation and any additional sources used
 
-
 # Your Changes
 
 ## Part A - Survey Design: 
 
-The number of your chosen topic: `#`
+The number of your chosen topic: `#A`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+This survey aims to identify the main reasons entry- and lower-level employees are leaving the company and to pinpoint workplace factors that most affect their satisfaction. For instance, compensation, workload, manager support, growth opportunities, and company culture. Results will be used to prioritize specific, actionable changes to improve retention and the employee experience.
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+Target population: All current entry- and lower-level employees at the tech company including junior positions, support/assistant roles, and early-career professional staff, across all departments and company locations.
+
+Sampling frame: The company’s Human Resources Information System of current employees, filtered to include only entry- and lower-level job grades.
+
+Sampling units: Individual employees selected from the system to receive the survey.
+
+Observational units: Individual employee responses, where each response represents one employee’s reported attitudes, experiences, and intentions regarding job satisfaction and turnover.
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+1. How long have you worked at the company?
+Less than 3 months / 3–6 months / 6–12 months / 1–2 years / 2+ years
+
+2. Overall, how satisfied are you with your job right now?
+1 (Very dissatisfied) / 2 / 3 / 4 / 5 (Very satisfied)
+
+3. How likely are you to look for a new job in the next 6 months?
+1 (Very unlikely) / 2 / 3 / 4 / 5 (Very likely)
+
+4. Which factors most influence your satisfaction at work? (Select up to 3)
+	- Pay/benefits
+    - Workload/pace
+    - Manager support/feedback
+    - Growth/career advancement
+    - Training/onboarding
+    - Team culture/belonging
+    - Work-life balance/scheduling
+    - Role clarity/expectations
+    - Recognition for work
+    - Other: ________
+
+5. How fair do you feel your compensation is compared to similar roles elsewhere?
+Much lower / Slightly lower / About the same / Slightly higher / Much higher / Not sure
+
+6. How manageable is your workload most weeks?
+1 (Not manageable) / 2 / 3 / 4 / 5 (Very manageable)
+
+7. How clear are your responsibilities and performance expectations?
+1 (Not clear) / 2 / 3 / 4 / 5 (Very clear)
+
+8. How confident are you that you can grow your career here in the next 12–18 months?
+1 (Not confident) / 2 / 3 / 4 / 5 (Very confident)
+
+9. 	If you could change one thing to make you more likely to stay, what would it be?
+Open-ended: ______________________
+
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +102,38 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type：cross-sectional probability sample with stratified design based on geographic strata (province and Census Metropolitan Areas). One eligible person per household was randomly selected for interview.  
+
+2. Sample size：Field sample: Approximately 50,000 units；Invitations: About 40,000 households were sent invitations；Projected completions: Estimated ~24,000 completed questionnaires. 
+ ￼
+3. Target population：All persons aged 15 years and older living in private households in the ten provinces of Canada. （Excluded Full-time residents of institutions, and Residents of Yukon, Northwest Territories, and Nunavut.）
+
+4. Sampling frame：A combined telephone frame made up of both landline and cellular numbers linked with dwelling information from Census and administrative sources; designed to improve coverage compared with traditional RDD. 
+
+5. Survey mode(s) ：Electronic self-administered questionnaire, and Computer-Assisted Telephone Interviewing. Proxy reporting was not permitted and respondents could choose English or French.  
+
+6. Timeline：Collection period: September 4, 2018 – December 28, 2018;Public release / documentation available: January 26, 2021.  
+
+7. Response rate：Overall ~41.9%.  
+
+8. Weights：Person-level weight available in the microdata file: WGHT_PER used as basic weighting factor for analysis at the person level, i.e. to calculate estimates of the number of persons (non-institutionalized and aged 15 or over) having one or several given characteristics.
+
+Bootstrap weights are used for design-based estimation of variances. Weights are adjusted for sample design, differential selection probabilities including volunteers vs non-volunteers, and calibrated to income distributions by province.
+
+9. Data processing：Use of Statistics Canada’s SSPE generalized processing steps in a structured environment. Automated CATI edits and manual head office checks. Consistency and flow edits to detect and correct errors.
+
+10. Cleaning, imputation, etc: Imputation was performed using donor imputation (i.e. nearest donor based on a score function) and mean imputation where donor was not available.
+
+Imputation carried out in nine steps: personal/family income, formal/informal volunteering variables, donation variables, solicitation methods.
+Income data were obtained via linkage to respondents’ tax data (2017 T1FF) before imputation. 
+
+11. Sources of error：Survey is subject to both sampling error handled via bootstrap variances and non-sampling error, including: 
+-Coverage errors including households without telephone numbers; -Non-response error at household and individual levels; 
+-Response and processing errors. 
+
+12. Limitations, known biases, etc：Exclusions including territories, institutional residents, households without phone coverage may introduce coverage bias if those groups differ from the target population.Non-response remains a part of potential bias. Method changes across online option, questionnaire revisions could limit comparability with past cycles.  
+
+13. Link to documentation and any additional sources used：General Social Survey (Cycle 33): Giving, Volunteering and Participating Public Use Microdata File Documentation and User Guide, 2018 — Statistics Canada catalogue entry: https://www150.statcan.gc.ca/n1/en/catalogue/45250011
 ```
 
 ## Rubric
